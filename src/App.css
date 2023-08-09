@@ -1,38 +1,102 @@
-.App {
+body {
+  margin: 0;
+}
+.text{
+  color: #0E3044;
+  font-size: 18px;
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+h2 {
+  color: #0E3044;
+}
+.header {
+  font-size: 30px;
+}
+.par {
+  width: 85%;
+  word-spacing: 0.5px;
+  line-height: 1.3em;
+  margin: 0px 0px 30px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav-links {
+  display: flex;
+  margin: 20px;
+}
+.link {
+  text-decoration: none;
+  margin: 40px;
+  color: #0E3044;
+  font-size: 20px;
+}
+li {
+  list-style: none;
+}
+.logo {
+  width: 300px;
+  margin: 30px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.container {
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+.sliderChecklist-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.slider-container {
+  max-width: 45%;
+}
+.slider {
+  display: flex;
+}
+.slider-btn {
+  border: none;
+  background-color: white;
+  font-size: 50px;
+}
+.slider-img {
+  max-height: 300px;
+}
+
+.checklist-item {
+  padding: 10px;
+  font-size: 20px;
+  margin-top: 30px
+}
+.checklist-list {
+  border: black solid 3px;
+  margin: 0;
+  width: 280px;
+  height: 400px;
+  color: #0E3044;
+}
+.hide-check {
+  display: none;
+}
+.hover-check:hover > .hide-check {
+  display: inline;
+  color: green;
+}
+.hiddenText {
+  font-size: 30px;
+  text-align: center;
+  margin-top: 170px;
+  color: green;
+}
+
+footer {
+  display: flex;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+  margin-top: 50px;
+  color: #0E3044;
 }
